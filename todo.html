@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<meta charset="utf-8">
+		<title>My to-do list</title>
+	</head>
+
+	<body>
+
+		<section class="intro">
+			<h1>To-do list</h1>
+			<h3>Welcome!</h3>
+			<p>1 - Enter the task to add to your list <br>
+			2 - Click to set them as done/undone <br>
+			3 - Clear the list</p>
+		</section>
+
+<!-- Centrar botooones! -->
+		<input id="todoInput">
+		<button type="button" onclick="todoList()">
+			<!-- Añadir en JS el when click.. -->
+			Add
+		</button>
+
+		<ul id="todoList">
+			<p>Aquí irán todos los to-dos</p>
+		</ul>
+
+		<button type="button" onclick="borrartodo()">
+			clear all
+		</button>
+
+		<button>
+			clear done
+		</button>
+	</body>
+
+	<script src="todo.js"></script>
+</html>
